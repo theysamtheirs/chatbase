@@ -6,9 +6,7 @@
   
   </script>
   
-  <div class="container mx-auto my-12 ">
-      <h1>Pocketchat</h1>
-      
+  <div class="container p-8 mx-auto my-8 rounded-md bg-slate-300 min-h-72">
       <Login />
       
       {#if $currentUser}
@@ -18,3 +16,7 @@
       {/if}
       
   </div>
+
+  <style lang="postcss">
+
+  </style>
